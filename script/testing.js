@@ -1,6 +1,9 @@
-let num1 = 120;
-let num2 = 0.0001;
+function myFunction() {
+	let result = prompt("How old are you?")
 
-console.log(num1)
-console.log(num2)
-console.log(num1 + num2)
+	console.log(result)
+
+	result = confirm("Принять правила соглашения?")
+
+	console.log(result)
+}
